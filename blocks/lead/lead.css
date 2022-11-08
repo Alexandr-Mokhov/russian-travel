@@ -7,6 +7,8 @@
   padding-top: 56px;
 }
 
+/* Добавил дополнительный запрос для лучшей адаптивности */
+
 @media screen and (max-width: 1080px) {
   .lead {
     max-width: 984px;

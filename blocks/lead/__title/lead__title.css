@@ -21,6 +21,8 @@
   }
 }
 
+/* Добавил дополнительный запрос для большей адаптивности */
+
 @media screen and (max-width: 300px) {
   .lead__title {
     font-size: 12.5vw;

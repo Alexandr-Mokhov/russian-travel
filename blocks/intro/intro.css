@@ -6,6 +6,8 @@
   padding-top: 92px;
 }
 
+/* Добавил дополнительный запрос для плавности изменения */
+
 @media screen and (max-width: 1080px) {
   .intro {
     max-width: 690px;

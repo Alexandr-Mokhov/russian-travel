@@ -5,6 +5,8 @@
   padding-bottom: 97px;
 }
 
+/* Добавил дополнительный запрос для лучшей адаптивности */
+
 @media screen and (max-width: 1080px) {
   .places {
     max-width: 100%;
