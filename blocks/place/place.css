@@ -46,3 +46,9 @@
   }
 }
 
+@media screen and (max-width: 321px) {
+  .place {
+    padding-top: 50px;
+  }
+}
+
