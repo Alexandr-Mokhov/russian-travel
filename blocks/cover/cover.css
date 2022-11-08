@@ -1,27 +1,19 @@
 .cover {
+  margin: 0 auto;
   max-width: 1184px;
   min-height: 740px;
-  margin: 0 auto;
-  position: relative;
-  overflow: hidden;
-  /*background-image: url(../../images/cover-trains.jpg);
-  background-size: cover;
+  background-image: url(../../images/cover-trains.jpg);
+  background-position: center;
   background-repeat: no-repeat;
-  background-position: center center; */
+  background-size: contain;
+  position: relative;
+  z-index: 1;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1184px) {
   .cover {
-    max-width: 100%;
-    min-height: calc(100vw*0.58);
-    margin: 0;
+  max-width: 100%;
+  min-height: calc(100vw*0.625);
   }
 }
 
-@media screen and (max-width: 768px) {
-  .cover {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-}

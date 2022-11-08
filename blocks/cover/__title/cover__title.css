@@ -4,35 +4,51 @@
   line-height: 76px;
   max-width: 560px;
   text-align: center;
-  margin: 245px 0 0;
+  margin: 0 auto;
+  padding-top: 245px;
+  position: relative;
+  z-index: 2;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1034px) {
   .cover__title {
-    margin: 195px 0 0;
+    padding-top: 195px;
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
   .cover__title {
-    margin: 115px 0 0;
+    padding-top: 115px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .cover__title {
-    font-size: 42px;
-    line-height: 46px;
-    max-width: 320px;
-    margin: 0;
+    padding-top: 60px;
+    font-size: 52px;
+    line-height: 56px;
+    max-width: 400px;
+
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .cover__title {
+    padding-top: 60px;
+    font-size: 32px;
+    line-height: 35px;
+    max-width: 250px;
+
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover__title {
+    padding-top: 33px;
     font-size: 32px;
     line-height: 35px;
-    max-width: 240px;
-    margin: 0;
+    max-width: 250px;
+
   }
 }
+
