@@ -1,25 +1,31 @@
 .intro__title {
+  max-width: 690px;
   margin: 0;
   font-size: 54px;
   font-weight: 900;
   line-height: 58px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 760px) {
   .intro__title {
-    margin: 0;
     font-size: 44px;
-    font-weight: 900;
     line-height: 46px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .intro__title {
-    margin: 0;
     font-size: 32px;
-    font-weight: 900;
     line-height: 35px;
+  }
+}
+
+/* Добавил дополнительный запрос для адаптации на минимальных разрешениях */
+
+@media screen and (max-width: 310px) {
+  .intro__title {
+    font-size: 10vw;
+    line-height: 11vw;
   }
 }
 

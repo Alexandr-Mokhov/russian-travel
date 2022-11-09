@@ -23,7 +23,7 @@
 **Используемые технологии**
 
 * Grid Layout
-* Opacasity
+* Opasity
 * Hover
 * Git branch
 * Git merge

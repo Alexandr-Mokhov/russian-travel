@@ -18,13 +18,12 @@
 
 @media screen and (max-width: 1100px) {
   .photo-grid {
-    padding-top: 92px;
     grid-template-columns: repeat(3, 1fr);
     gap: 14px;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1020px) {
   .photo-grid {
     margin: 0 24px;
     padding-top: 88px;
@@ -40,18 +39,16 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 760px) {
   .photo-grid {
     padding-top: 64px;
     margin: 0 16px;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 16px;
   }
 }
 
 @media screen and (max-width: 450px) {
   .photo-grid {
     grid-template-columns: repeat(1, 1fr);
-    gap: 12px;
+    gap: 13px;
   }
 }

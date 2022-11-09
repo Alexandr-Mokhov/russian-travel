@@ -1,5 +1,5 @@
 .photo-grid__item {
-display: flex;
-overflow: hidden;
-margin: 0;
+  display: flex;
+  overflow: hidden;
+  margin: 0;
 }

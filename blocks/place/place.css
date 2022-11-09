@@ -8,6 +8,10 @@
   row-gap: 48px;
 }
 
+.place:first-of-type {
+  padding-top: 0;
+}
+
 @media screen and (max-width: 1025px) {
   .place {
     grid-template-columns: 440px 1fr;
@@ -23,7 +27,7 @@
 
 @media screen and (max-width: 769px) {
   .place {
-    padding-top: 73px;
+    padding-top: 70px;
     grid-template-columns: 340px 1fr;
     column-gap: 28px;
   }
@@ -31,7 +35,7 @@
 
 /* Добавил дополнительный запрос для лучшей адаптивности */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 765px) {
   .place {
     grid-template-columns: 1fr 1fr;
     row-gap: 48px;
@@ -48,7 +52,7 @@
 
 @media screen and (max-width: 321px) {
   .place {
-    padding-top: 50px;
+    padding-top: 48px;
   }
 }
 

@@ -1,32 +1,35 @@
 .intro {
-  max-width: 690px;
-  display: flex;
-  flex-direction: column;
-  padding-left: calc((100vw - 984px)/2);
+  max-width: 984px;
   padding-top: 114px;
+  margin: 0 auto;
 }
 
 /* Добавил дополнительный запрос для плавности изменения */
 
 @media screen and (max-width: 1080px) {
   .intro {
-    padding-left: 48px;
+    margin: 0 48px;
     padding-top: 92px;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1020px) {
   .intro {
-    max-width: 720px;
-    padding: 88px 24px 0;
+    margin: 0 24px;
+    padding-top: 88px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 780px) {
   .intro {
-    max-width: 720px;
-    margin: 0 auto;
-    padding: 64px 16px 0;
+
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .intro {
+    padding: 64px 0 0;
+    margin: 0 16px;
   }
 }
 

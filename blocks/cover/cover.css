@@ -8,12 +8,15 @@
   background-size: contain;
   position: relative;
   z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 1184px) {
   .cover {
-  max-width: 100%;
-  min-height: calc(100vw*0.625);
+    max-width: 100%;
+    min-height: calc(100vw*0.625);
   }
 }
 
