@@ -8,7 +8,7 @@
 }
 
 .footer__link:hover {
-  opacity: .5;              /* Взял на себя смелость и увеличил затемнение для наглядности)) */
+  opacity: .5;
 }
 
 @media screen and (max-width: 760px) {
